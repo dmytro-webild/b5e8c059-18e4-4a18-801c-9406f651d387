@@ -203,7 +203,7 @@ export default function LandingPage() {
         <FaqDouble
           title="Frequently Asked Questions"
           description="Get answers to common questions about AIFlow's platform, pricing, and integration"
-          animationType="slide-up"
+          animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
           faqsAnimation="slide-up"
