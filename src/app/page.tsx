@@ -11,8 +11,20 @@ import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import { Sparkles, Zap, Workflow, Brain, Gauge, Target, Cpu, Shield, Scale, BarChart3, Info, Rocket, Star, Code, Palette, Layers } from 'lucide-react';
+import { useState } from 'react';
+import ConsultationForm from '@/components/forms/ConsultationForm';
 
 export default function LandingPage() {
+  const [showConsultationForm, setShowConsultationForm] = useState(false);
+
+  const handleScheduleConsultation = () => {
+    setShowConsultationForm(true);
+  };
+
+  const handleCloseForm = () => {
+    setShowConsultationForm(false);
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="icon-arrow"
@@ -26,6 +38,10 @@ export default function LandingPage() {
       secondaryButtonStyle="layered"
       headingFontWeight="semibold"
     >
+      {showConsultationForm && (
+        <ConsultationForm onClose={handleCloseForm} />
+      )}
+
       <div id="nav" data-section="nav">
         <NavbarStyleFullscreen
           brandName="Oasis"
@@ -107,6 +123,7 @@ export default function LandingPage() {
               title: "API Integration",              description: "Seamless integration with your existing tools and services"
             }
           ]}
+          gradientClassName="bg-gradient-to-r from-accent to-background-accent"
         />
       </div>
 
@@ -170,7 +187,7 @@ export default function LandingPage() {
             {
               id: "basic",              price: "1899 + 500/mo",              name: "Basic",              buttons: [
                 { text: "Get Started" },
-                { text: "Schedule Consultation" }
+                { text: "Schedule Consultation", onClick: handleScheduleConsultation }
               ],
               features: [
                 "500 monthly updates",                "14 day refund policy",                "Basic support",                "Email notifications",                "Analytics dashboard"
@@ -180,7 +197,7 @@ export default function LandingPage() {
               id: "professional",              badge: "Most Popular",              badgeIcon: Star,
               price: "4920 + 250/mo",              name: "Professional",              buttons: [
                 { text: "Get Started" },
-                { text: "Schedule Consultation" }
+                { text: "Schedule Consultation", onClick: handleScheduleConsultation }
               ],
               features: [
                 "250 monthly updates",                "30 day refund policy",                "Priority support",                "Advanced analytics",                "API access",                "Team collaboration"
@@ -189,7 +206,7 @@ export default function LandingPage() {
             {
               id: "custom",              price: "5 600 Kč",              name: "Custom",              buttons: [
                 { text: "Contact Sales" },
-                { text: "Request Proposal" }
+                { text: "Request Proposal", onClick: handleScheduleConsultation }
               ],
               features: [
                 "Consultation for features",                "Custom implementation",                "Dedicated account manager",                "24/7 support",                "White-label options",                "Ongoing optimization"
@@ -237,7 +254,7 @@ export default function LandingPage() {
           title="Let's Build Your Digital Presence"
           description="Join hundreds of satisfied clients who have transformed their businesses with Oasis. Contact us today for a free consultation."
           buttons={[
-            { text: "Schedule Consultation" },
+            { text: "Schedule Consultation", onClick: handleScheduleConsultation },
             { text: "View Our Portfolio" }
           ]}
           background={{ variant: "plain" }}
