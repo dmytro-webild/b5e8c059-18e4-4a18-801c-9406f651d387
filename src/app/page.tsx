@@ -10,7 +10,7 @@ import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Sparkles, Zap, Workflow, Brain, Gauge, Target, Cpu, Shield, Scale, BarChart3, Info, Rocket, Star } from 'lucide-react';
+import { Sparkles, Zap, Workflow, Brain, Gauge, Target, Cpu, Shield, Scale, BarChart3, Info, Rocket, Star, Code, Palette, Layers } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleFullscreen
-          brandName="AIFlow"
+          brandName="Oasis"
           navItems={[
             { name: "Features", id: "features" },
             { name: "Capabilities", id: "capabilities" },
@@ -36,15 +36,15 @@ export default function LandingPage() {
             { name: "Testimonials", id: "testimonials" },
             { name: "Contact", id: "contact" }
           ]}
-          bottomLeftText="Intelligent Automation"
-          bottomRightText="hello@aiflow.ai"
+          bottomLeftText="Website Design & Development"
+          bottomRightText="massimo.molin10@gmail.com"
         />
       </div>
 
       <div id="features" data-section="features">
         <FeatureBento
-          title="Powerful AI Capabilities"
-          description="Advanced machine learning features that transform your business with intelligent automation, real-time analytics, and predictive insights."
+          title="Powerful Website Solutions"
+          description="Professional website design and development services that transform your business with stunning digital experiences, seamless functionality, and measurable results."
           tag="Features"
           tagIcon={Sparkles}
           animationType="slide-up"
@@ -52,23 +52,23 @@ export default function LandingPage() {
           useInvertedBackground={false}
           features={[
             {
-              title: "Intelligent Automation",              description: "Automate complex workflows with AI-driven decision making and process optimization",              bentoComponent: "orbiting-icons",              centerIcon: Zap,
+              title: "Custom Design",              description: "Bespoke website designs tailored to your brand identity and business goals",              bentoComponent: "orbiting-icons",              centerIcon: Palette,
               items: [
-                { icon: Workflow, ring: 1 },
-                { icon: Brain, ring: 1 },
-                { icon: Gauge, ring: 2 },
-                { icon: Target, ring: 2 },
-                { icon: Cpu, ring: 3 }
+                { icon: Palette, ring: 1 },
+                { icon: Code, ring: 1 },
+                { icon: Layers, ring: 2 },
+                { icon: Zap, ring: 2 },
+                { icon: Workflow, ring: 3 }
               ]
             },
             {
-              title: "Real-Time Analytics",              description: "Process streaming data and gain instant insights with live dashboards",              bentoComponent: "animated-bar-chart"
+              title: "Performance Analytics",              description: "Track user engagement and conversion metrics with real-time dashboards",              bentoComponent: "animated-bar-chart"
             },
             {
-              title: "Predictive Models",              description: "Forecast trends and outcomes with advanced machine learning algorithms",              bentoComponent: "line-chart"
+              title: "Growth Tracking",              description: "Monitor traffic trends and user behavior patterns over time",              bentoComponent: "line-chart"
             },
             {
-              title: "Global Integration",              description: "Connect with any platform or service for seamless data flow",              bentoComponent: "globe"
+              title: "Global Reach",              description: "Deploy your website globally with optimized performance everywhere",              bentoComponent: "globe"
             }
           ]}
         />
@@ -76,35 +76,35 @@ export default function LandingPage() {
 
       <div id="capabilities" data-section="capabilities">
         <FeatureHoverPattern
-          title="Interactive Capabilities"
-          description="Discover the advanced features that power intelligent decision-making and automation at scale"
+          title="Why Choose Oasis"
+          description="We deliver cutting-edge web solutions that combine stunning design with powerful functionality"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           features={[
             {
-              icon: Brain,
-              title: "Machine Learning Engine",              description: "Custom trained models that continuously learn from your data and improve over time"
+              icon: Code,
+              title: "Modern Technology Stack",              description: "Built with React, Next.js, and cutting-edge frameworks for superior performance"
             },
             {
               icon: Shield,
-              title: "Enterprise Security",              description: "End-to-end encryption, compliance standards, and advanced access controls"
+              title: "Security First",              description: "Enterprise-grade security, SSL encryption, and compliance standards built in"
             },
             {
               icon: Zap,
-              title: "Lightning Performance",              description: "Process millions of transactions per second with sub-millisecond latency"
+              title: "Lightning Fast",              description: "Optimized for speed with sub-second load times and fluid interactions"
             },
             {
               icon: Scale,
-              title: "Unlimited Scalability",              description: "Grow from startup to enterprise without infrastructure concerns"
+              title: "Infinitely Scalable",              description: "Grow from startup to enterprise without worrying about infrastructure"
             },
             {
               icon: BarChart3,
-              title: "Advanced Analytics",              description: "Deep insights with customizable dashboards and real-time reporting"
+              title: "Data-Driven Insights",              description: "Comprehensive analytics and reporting to understand your visitors"
             },
             {
               icon: Cpu,
-              title: "API-First Architecture",              description: "Flexible integration with REST, GraphQL, and webhooks for your ecosystem"
+              title: "API Integration",              description: "Seamless integration with your existing tools and services"
             }
           ]}
         />
@@ -112,16 +112,16 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <MetricSplitMediaAbout
-          tag="About AIFlow"
+          tag="About Oasis"
           tagIcon={Info}
-          title="Pioneering AI Solutions for Enterprise"
-          description="AIFlow was founded by a team of machine learning researchers and platform engineers from leading tech companies. Our mission is to democratize advanced AI capabilities for businesses of all sizes, enabling organizations to harness the power of machine learning without requiring deep technical expertise."
+          title="Crafting Digital Experiences"
+          description="Oasis is a web development company dedicated to helping businesses establish powerful digital presences. Our team of experienced designers, developers, and strategists works collaboratively to create websites that not only look exceptional but drive real business results. We combine creative excellence with technical expertise to deliver solutions that exceed expectations."
           metrics={[
-            { value: "10,000+", title: "Active Users Worldwide" },
-            { value: "99.99%", title: "Platform Uptime SLA" }
+            { value: "500+", title: "Websites Created" },
+            { value: "98%", title: "Client Satisfaction Rate" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/a-team-of-engineers-and-data-scientists--1773173586927-f45eed37.png"
-          imageAlt="AIFlow team collaborating in modern tech lab"
+          imageAlt="Oasis team collaborating on web projects"
           mediaAnimation="slide-up"
           metricsAnimation="slide-up"
           useInvertedBackground={false}
@@ -130,30 +130,30 @@ export default function LandingPage() {
 
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardSix
-          title="Trusted by Industry Leaders"
-          description="See how enterprises transform their operations with AIFlow's intelligent automation platform"
+          title="Trusted by Businesses Worldwide"
+          description="See how companies transform their digital presence with Oasis web solutions"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           speed={40}
           testimonials={[
             {
-              id: "1",              name: "Sarah Chen",              handle: "VP Product, TechCorp",              testimonial: "AIFlow transformed how we process customer data. We reduced processing time by 80% and gained insights we never thought possible.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-bus-1773173586625-aa23225b.png",              imageAlt: "Sarah Chen"
+              id: "1",              name: "Sarah Chen",              handle: "CEO, TechStartup",              testimonial: "Oasis completely transformed our online presence. The website they built is not only beautiful but has significantly increased our conversion rates.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-bus-1773173586625-aa23225b.png",              imageAlt: "Sarah Chen"
             },
             {
-              id: "2",              name: "Michael Rodriguez",              handle: "CTO, FinanceFlow",              testimonial: "The integration was seamless and the performance exceeded our expectations. Our team is amazed at how much smarter our systems have become.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-techn-1773173586036-174293d6.png",              imageAlt: "Michael Rodriguez"
+              id: "2",              name: "Michael Rodriguez",              handle: "Founder, DesignCo",              testimonial: "The professionalism and attention to detail shown by the Oasis team was outstanding. They delivered exactly what we envisioned on time and within budget.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-techn-1773173586036-174293d6.png",              imageAlt: "Michael Rodriguez"
             },
             {
-              id: "3",              name: "Emily Watson",              handle: "Director of Operations, RetailCo",              testimonial: "AIFlow's predictive analytics helped us optimize inventory levels and reduce waste by 35%. The ROI was evident within the first month.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-dat-1773173585159-7d38ef14.png",              imageAlt: "Emily Watson"
+              id: "3",              name: "Emily Watson",              handle: "Marketing Director, RetailCo",              testimonial: "Our new website has become our best sales tool. Customer engagement increased by 150% within the first quarter after launch.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-dat-1773173585159-7d38ef14.png",              imageAlt: "Emily Watson"
             },
             {
-              id: "4",              name: "David Park",              handle: "CEO, DataVentures",              testimonial: "We evaluated multiple platforms and AIFlow stood out for its ease of use, powerful capabilities, and exceptional support team.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586669-bddc6d30.png",              imageAlt: "David Park"
+              id: "4",              name: "David Park",              handle: "Product Manager, InnovateLabs",              testimonial: "Oasis stands out for their technical expertise and customer service. They made the complex process of building a web platform feel effortless.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586669-bddc6d30.png",              imageAlt: "David Park"
             },
             {
-              id: "5",              name: "Lisa Thompson",              handle: "Head of AI, InnovateLabs",              testimonial: "The platform's flexibility allowed us to deploy custom models at scale. AIFlow has become critical to our competitive advantage.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-tec-1773173586288-e8f0f38a.png",              imageAlt: "Lisa Thompson"
+              id: "5",              name: "Lisa Thompson",              handle: "Owner, Creative Agency",              testimonial: "The website Oasis created for us is a true reflection of our brand. Our clients constantly compliment the design and user experience.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-tec-1773173586288-e8f0f38a.png",              imageAlt: "Lisa Thompson"
             },
             {
-              id: "6",              name: "James Wilson",              handle: "VP Technology, EnterpriseEdge",              testimonial: "Security and compliance are always concerns with AI systems. AIFlow checked every box and exceeded our enterprise requirements.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586600-2b46a3cd.png",              imageAlt: "James Wilson"
+              id: "6",              name: "James Wilson",              handle: "Executive Director, Enterprise Co",              testimonial: "From concept to launch, Oasis provided exceptional guidance and expertise. Our website is now a key competitive advantage.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586600-2b46a3cd.png",              imageAlt: "James Wilson"
             }
           ]}
         />
@@ -161,29 +161,29 @@ export default function LandingPage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardThree
-          title="Simple, Transparent Pricing"
-          description="Choose the plan that fits your business size and growth ambitions"
+          title="Flexible Pricing Plans"
+          description="Choose the package that fits your business needs and budget"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           plans={[
             {
-              id: "starter",              price: "$499/mo",              name: "Starter",              buttons: [
+              id: "starter",              price: "$2,499",              name: "Starter",              buttons: [
                 { text: "Get Started" },
-                { text: "Schedule Demo" }
+                { text: "Schedule Consultation" }
               ],
               features: [
-                "Up to 1M events/month",                "Basic analytics dashboard",                "Email support",                "Single user account",                "Standard API access"
+                "Up to 5 pages",                "Responsive design",                "Basic SEO optimization",                "Contact form",                "Email support"
               ]
             },
             {
               id: "professional",              badge: "Most Popular",              badgeIcon: Star,
-              price: "$1,999/mo",              name: "Professional",              buttons: [
+              price: "$6,999",              name: "Professional",              buttons: [
                 { text: "Get Started" },
-                { text: "Schedule Demo" }
+                { text: "Schedule Consultation" }
               ],
               features: [
-                "Up to 50M events/month",                "Advanced analytics & insights",                "Priority 24/7 support",                "Up to 10 team members",                "Custom integrations",                "Dedicated account manager"
+                "Up to 15 pages",                "Advanced design",                "SEO optimization",                "Blog integration",                "E-commerce ready",                "Priority support"
               ]
             },
             {
@@ -192,7 +192,7 @@ export default function LandingPage() {
                 { text: "Request Proposal" }
               ],
               features: [
-                "Unlimited events & processing",                "Full platform access",                "Dedicated support team",                "Unlimited users & customization",                "On-premise deployment option",                "Custom SLA & compliance"
+                "Unlimited pages",                "Custom features",                "API integrations",                "Dedicated manager",                "24/7 support",                "Ongoing optimization"
               ]
             }
           ]}
@@ -202,29 +202,29 @@ export default function LandingPage() {
       <div id="faq" data-section="faq">
         <FaqDouble
           title="Frequently Asked Questions"
-          description="Get answers to common questions about AIFlow's platform, pricing, and integration"
+          description="Find answers to common questions about our web design and development services"
           animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
           faqsAnimation="slide-up"
           faqs={[
             {
-              id: "1",              title: "How long does it take to get started with AIFlow?",              content: "Most organizations can be up and running within 24-48 hours. We provide comprehensive onboarding, API documentation, and SDKs in popular languages to accelerate your implementation. Our support team is available throughout the process."
+              id: "1",              title: "How long does it take to build a website?",              content: "Most projects take 4-8 weeks depending on complexity and scope. We provide a detailed timeline during the initial consultation and keep you updated throughout the development process."
             },
             {
-              id: "2",              title: "What security certifications does AIFlow hold?",              content: "AIFlow is SOC 2 Type II certified, GDPR compliant, and meets HIPAA requirements for healthcare customers. We perform regular third-party security audits and penetration testing to ensure enterprise-grade security."
+              id: "2",              title: "Do you provide ongoing maintenance and support?",              content: "Yes, we offer comprehensive maintenance packages that include updates, backups, security monitoring, and technical support to keep your website running smoothly."
             },
             {
-              id: "3",              title: "Can AIFlow integrate with our existing systems?",              content: "Yes, AIFlow provides REST APIs, GraphQL, webhooks, and pre-built connectors for popular platforms like Salesforce, HubSpot, Stripe, and more. Our integration team can help with custom integrations for legacy systems."
+              id: "3",              title: "Will my website be mobile-friendly?",              content: "Absolutely. All our websites are fully responsive and optimized for mobile devices, tablets, and desktops to ensure the best user experience across all platforms."
             },
             {
-              id: "4",              title: "What if I need to scale beyond my current plan?",              content: "Scaling with AIFlow is seamless. You can upgrade your plan anytime, and we'll handle the infrastructure scaling automatically. Enterprise customers receive dedicated support for capacity planning."
+              id: "4",              title: "Can you help with SEO?",              content: "Yes, we build SEO best practices into every website including proper site structure, meta tags, performance optimization, and we can also discuss additional SEO services."
             },
             {
-              id: "5",              title: "Does AIFlow offer training for my team?",              content: "Yes, we provide comprehensive training programs including live webinars, video tutorials, documentation, and personalized coaching sessions. Professional and Enterprise plans include dedicated training sessions."
+              id: "5",              title: "What if I need changes after launch?",              content: "We provide a revision period after launch and offer ongoing support packages. Most changes can be made quickly and efficiently through our content management system."
             },
             {
-              id: "6",              title: "What's the difference between the plans?",              content: "Starter is ideal for small teams and proof-of-concept projects. Professional is designed for growing companies with advanced analytics needs. Enterprise offers unlimited scale, dedicated support, and custom solutions."
+              id: "6",              title: "Do you offer e-commerce solutions?",              content: "Yes, we build e-commerce websites with secure payment processing, inventory management, and everything you need to sell online successfully."
             }
           ]}
         />
@@ -232,13 +232,13 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactCTA
-          tag="Ready to Transform"
+          tag="Ready to Get Started"
           tagIcon={Rocket}
-          title="Start Your AI Journey Today"
-          description="Join thousands of enterprises using AIFlow to unlock the power of artificial intelligence. Get a personalized demo or start your free trial."
+          title="Let's Build Your Digital Presence"
+          description="Join hundreds of satisfied clients who have transformed their businesses with Oasis. Contact us today for a free consultation."
           buttons={[
-            { text: "Schedule Demo" },
-            { text: "Start Free Trial" }
+            { text: "Schedule Consultation" },
+            { text: "View Our Portfolio" }
           ]}
           background={{ variant: "plain" }}
           useInvertedBackground={false}
@@ -247,31 +247,31 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterBaseCard
-          logoText="AIFlow"
-          copyrightText="© 2025 AIFlow Inc. All rights reserved."
+          logoText="Oasis"
+          copyrightText="© 2025 Oasis. All rights reserved."
           columns={[
             {
-              title: "Product",              items: [
-                { label: "Features", href: "#features" },
-                { label: "Pricing", href: "#pricing" },
-                { label: "Security", href: "#" },
-                { label: "Roadmap", href: "#" }
+              title: "Services",              items: [
+                { label: "Web Design", href: "#features" },
+                { label: "Web Development", href: "#features" },
+                { label: "E-commerce", href: "#pricing" },
+                { label: "SEO", href: "#features" }
               ]
             },
             {
               title: "Company",              items: [
                 { label: "About", href: "#about" },
-                { label: "Blog", href: "#" },
-                { label: "Careers", href: "#" },
+                { label: "Portfolio", href: "#testimonials" },
+                { label: "Team", href: "#about" },
                 { label: "Contact", href: "#contact" }
               ]
             },
             {
               title: "Resources",              items: [
-                { label: "Documentation", href: "#" },
-                { label: "API Reference", href: "#" },
-                { label: "Community", href: "#" },
-                { label: "Support", href: "#" }
+                { label: "Blog", href: "#" },
+                { label: "Case Studies", href: "#testimonials" },
+                { label: "FAQ", href: "#faq" },
+                { label: "Support", href: "#contact" }
               ]
             },
             {
