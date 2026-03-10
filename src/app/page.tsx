@@ -47,7 +47,7 @@ export default function LandingPage() {
           description="Advanced machine learning features that transform your business with intelligent automation, real-time analytics, and predictive insights."
           tag="Features"
           tagIcon={Sparkles}
-          animationType="slide-up"
+          animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
           features={[
@@ -78,7 +78,7 @@ export default function LandingPage() {
         <FeatureHoverPattern
           title="Interactive Capabilities"
           description="Discover the advanced features that power intelligent decision-making and automation at scale"
-          animationType="slide-up"
+          animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
           features={[
@@ -122,8 +122,8 @@ export default function LandingPage() {
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/a-team-of-engineers-and-data-scientists--1773173586927-f45eed37.png"
           imageAlt="AIFlow team collaborating in modern tech lab"
-          mediaAnimation="slide-up"
-          metricsAnimation="slide-up"
+          mediaAnimation="smooth"
+          metricsAnimation="smooth"
           useInvertedBackground={false}
         />
       </div>
@@ -132,7 +132,7 @@ export default function LandingPage() {
         <TestimonialCardSix
           title="Trusted by Industry Leaders"
           description="See how enterprises transform their operations with AIFlow's intelligent automation platform"
-          animationType="slide-up"
+          animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
           speed={40}
@@ -163,7 +163,7 @@ export default function LandingPage() {
         <PricingCardThree
           title="Simple, Transparent Pricing"
           description="Choose the plan that fits your business size and growth ambitions"
-          animationType="slide-up"
+          animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
           plans={[
@@ -203,10 +203,10 @@ export default function LandingPage() {
         <FaqDouble
           title="Frequently Asked Questions"
           description="Get answers to common questions about AIFlow's platform, pricing, and integration"
-          animationType="slide-up"
+          animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
-          faqsAnimation="slide-up"
+          faqsAnimation="smooth"
           faqs={[
             {
               id: "1",              title: "How long does it take to get started with AIFlow?",              content: "Most organizations can be up and running within 24-48 hours. We provide comprehensive onboarding, API documentation, and SDKs in popular languages to accelerate your implementation. Our support team is available throughout the process."
