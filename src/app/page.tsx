@@ -168,31 +168,31 @@ export default function LandingPage() {
           useInvertedBackground={false}
           plans={[
             {
-              id: "starter",              price: "$2,499",              name: "Starter",              buttons: [
+              id: "basic",              price: "1 899 Kč",              name: "Basic",              buttons: [
                 { text: "Get Started" },
                 { text: "Schedule Consultation" }
               ],
               features: [
-                "Up to 5 pages",                "Responsive design",                "Basic SEO optimization",                "Contact form",                "Email support"
+                "500 monthly updates",                "14 day refund policy",                "Basic support",                "Email notifications",                "Analytics dashboard"
               ]
             },
             {
               id: "professional",              badge: "Most Popular",              badgeIcon: Star,
-              price: "$6,999",              name: "Professional",              buttons: [
+              price: "4 920 Kč",              name: "Professional",              buttons: [
                 { text: "Get Started" },
                 { text: "Schedule Consultation" }
               ],
               features: [
-                "Up to 15 pages",                "Advanced design",                "SEO optimization",                "Blog integration",                "E-commerce ready",                "Priority support"
+                "250 monthly updates",                "30 day refund policy",                "Priority support",                "Advanced analytics",                "API access",                "Team collaboration"
               ]
             },
             {
-              id: "enterprise",              price: "Custom",              name: "Enterprise",              buttons: [
+              id: "custom",              price: "5 600 Kč",              name: "Custom",              buttons: [
                 { text: "Contact Sales" },
                 { text: "Request Proposal" }
               ],
               features: [
-                "Unlimited pages",                "Custom features",                "API integrations",                "Dedicated manager",                "24/7 support",                "Ongoing optimization"
+                "Consultation for features",                "Custom implementation",                "Dedicated account manager",                "24/7 support",                "White-label options",                "Ongoing optimization"
               ]
             }
           ]}
