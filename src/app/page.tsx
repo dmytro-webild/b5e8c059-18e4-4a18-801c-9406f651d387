@@ -92,7 +92,7 @@ export default function LandingPage() {
 
       <div id="capabilities" data-section="capabilities">
         <FeatureHoverPattern
-          title="Proč zvolit Oázu"
+          title="Proč zvolit Oasis"
           description="Dodáváme špičková webová řešení, která kombinují úžasný design s výkonnou funkčností"
           animationType="slide-up"
           textboxLayout="default"
