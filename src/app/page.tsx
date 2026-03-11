@@ -147,7 +147,7 @@ export default function LandingPage() {
 
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardSix
-          title="Důvěřováno společnostem po celém světě"
+          title="Důvěřováno společnostmy po celém světě"
           description="Podívejte se, jak společnosti transformují svou digitální přítomnost pomocí webových řešení Oázy"
           animationType="slide-up"
           textboxLayout="default"
