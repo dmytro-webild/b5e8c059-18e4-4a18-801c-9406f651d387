@@ -218,30 +218,30 @@ export default function LandingPage() {
 
       <div id="faq" data-section="faq">
         <FaqDouble
-          title="Frequently Asked Questions"
-          description="Find answers to common questions about our web design and development services"
+          title="Často kladené otázky"
+          description="Najděte odpovědi na běžné otázky týkající se našich služeb webového designu a vývoje"
           animationType="smooth"
           textboxLayout="default"
           useInvertedBackground={false}
           faqsAnimation="slide-up"
           faqs={[
             {
-              id: "1",              title: "How long does it take to build a website?",              content: "Most projects take 4-8 weeks depending on complexity and scope. We provide a detailed timeline during the initial consultation and keep you updated throughout the development process."
+              id: "1",              title: "Jak dlouho trvá vytvoření webu?",              content: "Většina projektů trvá 4-8 týdnů v závislosti na složitosti a rozsahu. Během počáteční konzultace vám poskytneme podrobný plán a budete informováni o průběhu vývoje."
             },
             {
-              id: "2",              title: "Do you provide ongoing maintenance and support?",              content: "Yes, we offer comprehensive maintenance packages that include updates, backups, security monitoring, and technical support to keep your website running smoothly."
+              id: "2",              title: "Poskytujete údržbu a podporu po spuštění?",              content: "Ano, nabízíme komplexní balíčky údržby, které zahrnují aktualizace, zálohování, monitorování bezpečnosti a technickou podporu pro zajištění bezproblémového provozu vašeho webu."
             },
             {
-              id: "3",              title: "Will my website be mobile-friendly?",              content: "Absolutely. All our websites are fully responsive and optimized for mobile devices, tablets, and desktops to ensure the best user experience across all platforms."
+              id: "3",              title: "Bude můj web vhodný pro mobilní zařízení?",              content: "Rozhodně. Všechny naše weby jsou plně responzivní a optimalizované pro mobilní zařízení, tablety a stolní počítače, aby poskytovaly nejlepší uživatelský dojem na všech platformách."
             },
             {
-              id: "4",              title: "Can you help with SEO?",              content: "Yes, we build SEO best practices into every website including proper site structure, meta tags, performance optimization, and we can also discuss additional SEO services."
+              id: "4",              title: "Můžete pomoci s SEO?",              content: "Ano, do každého webu začleňujeme nejlepší praktiky SEO včetně správné struktury stránky, meta tagů, optimalizace výkonu a můžeme také probrat další služby SEO."
             },
             {
-              id: "5",              title: "What if I need changes after launch?",              content: "We provide a revision period after launch and offer ongoing support packages. Most changes can be made quickly and efficiently through our content management system."
+              id: "5",              title: "Co když potřebuji změny po spuštění?",              content: "Poskytneme období revizí po spuštění a nabízíme balíčky pokračující podpory. Většina změn lze provést rychle a efektivně prostřednictvím našeho systému pro správu obsahu."
             },
             {
-              id: "6",              title: "Do you offer e-commerce solutions?",              content: "Yes, we build e-commerce websites with secure payment processing, inventory management, and everything you need to sell online successfully."
+              id: "6",              title: "Nabízíte řešení e-commerce?",              content: "Ano, budujeme e-commerce weby s bezpečným zpracováním plateb, správou zásob a vším, co potřebujete pro úspěšný prodej online."
             }
           ]}
         />
@@ -249,13 +249,13 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactCTA
-          tag="Ready to Get Started"
+          tag="Připraveni začít"
           tagIcon={Rocket}
-          title="Let's Build Your Digital Presence"
-          description="Join hundreds of satisfied clients who have transformed their businesses with Oasis. Contact us today for a free consultation."
+          title="Pojďme vytvořit vaši digitální přítomnost"
+          description="Připojte se ke stovkám spokojených klientů, kteří transformovali své podnikání s Oasis. Kontaktujte nás dnes pro bezplatnou konzultaci."
           buttons={[
-            { text: "Schedule Consultation", onClick: handleScheduleConsultation },
-            { text: "View Our Portfolio" }
+            { text: "Naplánovat konzultaci", onClick: handleScheduleConsultation },
+            { text: "Zobrazit naší práci" }
           ]}
           background={{ variant: "plain" }}
           useInvertedBackground={false}
@@ -265,38 +265,38 @@ export default function LandingPage() {
       <div id="footer" data-section="footer">
         <FooterBaseCard
           logoText="Oasis"
-          copyrightText="© 2025 Oasis. All rights reserved."
+          copyrightText="© 2025 Oasis. Všechna práva vyhrazena."
           columns={[
             {
-              title: "Services",              items: [
-                { label: "Web Design", href: "#features" },
-                { label: "Web Development", href: "#features" },
+              title: "Služby",              items: [
+                { label: "Webový design", href: "#features" },
+                { label: "Vývoj webu", href: "#features" },
                 { label: "E-commerce", href: "#pricing" },
                 { label: "SEO", href: "#features" }
               ]
             },
             {
-              title: "Company",              items: [
-                { label: "About", href: "#about" },
+              title: "Společnost",              items: [
+                { label: "O nás", href: "#about" },
                 { label: "Portfolio", href: "#testimonials" },
-                { label: "Team", href: "#about" },
-                { label: "Contact", href: "#contact" }
+                { label: "Tým", href: "#about" },
+                { label: "Kontakt", href: "#contact" }
               ]
             },
             {
-              title: "Resources",              items: [
+              title: "Zdroje",              items: [
                 { label: "Blog", href: "#" },
-                { label: "Case Studies", href: "#testimonials" },
+                { label: "Případové studie", href: "#testimonials" },
                 { label: "FAQ", href: "#faq" },
-                { label: "Support", href: "#contact" }
+                { label: "Podpora", href: "#contact" }
               ]
             },
             {
-              title: "Legal",              items: [
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms of Service", href: "#" },
-                { label: "Cookie Policy", href: "#" },
-                { label: "Compliance", href: "#" }
+              title: "Právní",              items: [
+                { label: "Zásady ochrany osobních údajů", href: "#" },
+                { label: "Podmínky služby", href: "#" },
+                { label: "Zásady cookies", href: "#" },
+                { label: "Soulad", href: "#" }
               ]
             }
           ]}
