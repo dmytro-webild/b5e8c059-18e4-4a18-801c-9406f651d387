@@ -178,7 +178,7 @@ export default function LandingPage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardThree
-          title="Plány s flexibilní cenou"
+          title="odstan to"
           description="Vyberte si balíček, který nejlépe vyhovuje potřebám a rozpočtu vašeho podniku"
           animationType="slide-up"
           textboxLayout="default"
