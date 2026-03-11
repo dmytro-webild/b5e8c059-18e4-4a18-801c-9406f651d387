@@ -134,7 +134,7 @@ export default function LandingPage() {
           title="Crafting Digital Experiences"
           description="Oasis is a web development company dedicated to helping businesses establish powerful digital presences. Our team of experienced designers, developers, and strategists works collaboratively to create websites that not only look exceptional but drive real business results. We combine creative excellence with technical expertise to deliver solutions that exceed expectations."
           metrics={[
-            { value: "500+", title: "Websites Created" },
+            { value: "20+", title: "Websites Created" },
             { value: "98%", title: "Client Satisfaction Rate" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/a-team-of-engineers-and-data-scientists--1773173586927-f45eed37.png"
