@@ -185,7 +185,7 @@ export default function LandingPage() {
           useInvertedBackground={false}
           plans={[
             {
-              id: "basic",              price: "1899 + 500/měs",              name: "Základní",              buttons: [
+              id: "basic",              price: "4200 + 500/měs",              name: "Základní",              buttons: [
                 { text: "Začít" },
                 { text: "Naplánovat konzultaci", onClick: handleScheduleConsultation }
               ],
@@ -195,7 +195,7 @@ export default function LandingPage() {
             },
             {
               id: "professional",              badge: "Nejpopulárnější",              badgeIcon: Star,
-              price: "4920 + 250/měs",              name: "Profesionální",              buttons: [
+              price: "5600 + 350/měs",              name: "Profesionální",              buttons: [
                 { text: "Začít" },
                 { text: "Naplánovat konzultaci", onClick: handleScheduleConsultation }
               ],
