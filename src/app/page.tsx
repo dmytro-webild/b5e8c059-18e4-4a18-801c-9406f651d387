@@ -155,7 +155,7 @@ export default function LandingPage() {
           speed={40}
           testimonials={[
             {
-              id: "1",              name: "Sarah Chen",              handle: "CEO, TechStartup",              testimonial: "Oáza zcela transformovala naši online přítomnost. Web, který vytvořili, je nejen krásný, ale také výrazně zvýšil naší konverzní poměr.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-bus-1773173586625-aa23225b.png",              imageAlt: "Sarah Chen"
+              id: "1",              name: "Sarah Chen",              handle: "CEO, TechStartup",              testimonial: "Oáza zcela transformovala naši online přítomnost. Web, který vytvořili, je nejen krásný, ale také výrazně zvýšil naši konverzní poměr.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-bus-1773173586625-aa23225b.png",              imageAlt: "Sarah Chen"
             },
             {
               id: "2",              name: "Michael Rodriguez",              handle: "Zakladatel, DesignCo",              testimonial: "Profesionalismus a pozornost k detailům, kterou tým Oázy prokázal, byla výjimečná. Dodali přesně to, co jsme si představovali, včas a v rozpočtu.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-techn-1773173586036-174293d6.png",              imageAlt: "Michael Rodriguez"
