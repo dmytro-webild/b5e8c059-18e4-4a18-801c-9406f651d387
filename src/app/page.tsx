@@ -129,7 +129,7 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <MetricSplitMediaAbout
-          tag="O společnosti Oáza"
+          tag="O společnosti Oasis"
           tagIcon={Info}
           title="Vytváření digitálních zážitků"
           description="Oáza je společnost zabývající se vývojem webů, která se věnuje pomoci podnikům v navázání silné digitální přítomnosti. Náš tým zkušených návrhářů, vývojářů a strategů spolupracuje na vytvoření webů, které nejen vypadají výjimečně, ale také dosahují skutečných obchodních výsledků. Kombinujeme kreativní excelenci s technickou odborností, abychom dodali řešení, která překročí očekávání."
