@@ -108,7 +108,7 @@ export default function LandingPage() {
             },
             {
               icon: Zap,
-              title: "Bleeskustrá rychlost",              description: "Optimalizováno pro rychlost s dobou načítání pod sekundu a tekutými interakcemi"
+              title: "Blesková rychlost",              description: "Optimalizováno pro rychlost s dobou načítání pod sekundu a tekutými interakcemi"
             },
             {
               icon: Scale,
