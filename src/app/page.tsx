@@ -44,31 +44,31 @@ export default function LandingPage() {
 
       <div id="nav" data-section="nav">
         <NavbarStyleFullscreen
-          brandName="Oasis"
+          brandName="Oáza"
           navItems={[
-            { name: "Features", id: "features" },
-            { name: "Capabilities", id: "capabilities" },
-            { name: "Pricing", id: "pricing" },
-            { name: "Testimonials", id: "testimonials" },
-            { name: "Contact", id: "contact" }
+            { name: "Funkce", id: "features" },
+            { name: "Možnosti", id: "capabilities" },
+            { name: "Ceny", id: "pricing" },
+            { name: "Recenze", id: "testimonials" },
+            { name: "Kontakt", id: "contact" }
           ]}
-          bottomLeftText="Website Design & Development"
+          bottomLeftText="Návrh a vývoj webových stránek"
           bottomRightText="massimo.molin10@gmail.com"
         />
       </div>
 
       <div id="features" data-section="features">
         <FeatureBento
-          title="Powerful Website Solutions"
-          description="Professional website design and development services that transform your business with stunning digital experiences, seamless functionality, and measurable results."
-          tag="Features"
+          title="Výkonná řešení pro webové stránky"
+          description="Profesionální služby návrhu a vývoje webových stránek, které transformují vaše podnikání nádherným digitálním zážitkem, bezproblémovou funkčností a měřitelnými výsledky."
+          tag="Funkce"
           tagIcon={Sparkles}
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           features={[
             {
-              title: "Custom Design",              description: "Bespoke website designs tailored to your brand identity and business goals",              bentoComponent: "orbiting-icons",              centerIcon: Palette,
+              title: "Vlastní design",              description: "Vytvořený web na míru vaší identitě značky a obchodním cílům",              bentoComponent: "orbiting-icons",              centerIcon: Palette,
               items: [
                 { icon: Palette, ring: 1 },
                 { icon: Code, ring: 1 },
@@ -78,13 +78,13 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Performance Analytics",              description: "Track user engagement and conversion metrics with real-time dashboards",              bentoComponent: "animated-bar-chart"
+              title: "Analýza výkonu",              description: "Sledujte zapojení uživatelů a metriky konverze s řídicími panely v reálném čase",              bentoComponent: "animated-bar-chart"
             },
             {
-              title: "Growth Tracking",              description: "Monitor traffic trends and user behavior patterns over time",              bentoComponent: "line-chart"
+              title: "Sledování růstu",              description: "Sledujte trendy v provozu a vzorce chování uživatelů v průběhu času",              bentoComponent: "line-chart"
             },
             {
-              title: "Global Reach",              description: "Deploy your website globally with optimized performance everywhere",              bentoComponent: "globe"
+              title: "Globální dosah",              description: "Nasaďte svůj web globálně s optimalizovaným výkonem všude",              bentoComponent: "globe"
             }
           ]}
         />
@@ -92,35 +92,35 @@ export default function LandingPage() {
 
       <div id="capabilities" data-section="capabilities">
         <FeatureHoverPattern
-          title="Why Choose Oasis"
-          description="We deliver cutting-edge web solutions that combine stunning design with powerful functionality"
+          title="Proč zvolit Oázu"
+          description="Dodáváme špičková webová řešení, která kombinují úžasný design s výkonnou funkčností"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           features={[
             {
               icon: Code,
-              title: "Modern Technology Stack",              description: "Built with React, Next.js, and cutting-edge frameworks for superior performance"
+              title: "Moderní technologický stack",              description: "Postaveno na React, Next.js a nejnovějších framework pro lepší výkon"
             },
             {
               icon: Shield,
-              title: "Security First",              description: "Enterprise-grade security, SSL encryption, and compliance standards built in"
+              title: "Bezpečnost na prvním místě",              description: "Bezpečnost na úrovni podnikání, šifrování SSL a standardy dodržování zabudované"
             },
             {
               icon: Zap,
-              title: "Lightning Fast",              description: "Optimized for speed with sub-second load times and fluid interactions"
+              title: "Bleeskustrá rychlost",              description: "Optimalizováno pro rychlost s dobou načítání pod sekundu a tekutými interakcemi"
             },
             {
               icon: Scale,
-              title: "Infinitely Scalable",              description: "Grow from startup to enterprise without worrying about infrastructure"
+              title: "Nekonečně škálovatelná",              description: "Rostěte od startupu k podnikání bez obav o infrastrukturu"
             },
             {
               icon: BarChart3,
-              title: "Data-Driven Insights",              description: "Comprehensive analytics and reporting to understand your visitors"
+              title: "Poznatky řízené daty",              description: "Komplexní analýzy a hlášení pochopit své návštěvníky"
             },
             {
               icon: Cpu,
-              title: "API Integration",              description: "Seamless integration with your existing tools and services"
+              title: "Integrace rozhraní API",              description: "Bezproblémová integrace s vašimi stávajícími nástroji a službami"
             }
           ]}
           gradientClassName="bg-gradient-to-r from-accent to-background-accent"
@@ -129,16 +129,16 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <MetricSplitMediaAbout
-          tag="About Oasis"
+          tag="O společnosti Oáza"
           tagIcon={Info}
-          title="Crafting Digital Experiences"
-          description="Oasis is a web development company dedicated to helping businesses establish powerful digital presences. Our team of experienced designers, developers, and strategists works collaboratively to create websites that not only look exceptional but drive real business results. We combine creative excellence with technical expertise to deliver solutions that exceed expectations."
+          title="Vytváření digitálních zážitků"
+          description="Oáza je společnost zabývající se vývojem webů, která se věnuje pomoci podnikům v navázání silné digitální přítomnosti. Náš tým zkušených návrhářů, vývojářů a strategů spolupracuje na vytvoření webů, které nejen vypadají výjimečně, ale také dosahují skutečných obchodních výsledků. Kombinujeme kreativní excelenci s technickou odborností, abychom dodali řešení, která překročí očekávání."
           metrics={[
-            { value: "20+", title: "Websites Created" },
-            { value: "98%", title: "Client Satisfaction Rate" }
+            { value: "20+", title: "Vytvořené weby" },
+            { value: "98%", title: "Míra spokojenosti klientů" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/a-team-of-engineers-and-data-scientists--1773173586927-f45eed37.png"
-          imageAlt="Oasis team collaborating on web projects"
+          imageAlt="Tým Oázy spolupracující na webových projektech"
           mediaAnimation="slide-up"
           metricsAnimation="slide-up"
           useInvertedBackground={false}
@@ -147,30 +147,30 @@ export default function LandingPage() {
 
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardSix
-          title="Trusted by Businesses Worldwide"
-          description="See how companies transform their digital presence with Oasis web solutions"
+          title="Důvěřováno společnostem po celém světě"
+          description="Podívejte se, jak společnosti transformují svou digitální přítomnost pomocí webových řešení Oázy"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           speed={40}
           testimonials={[
             {
-              id: "1",              name: "Sarah Chen",              handle: "CEO, TechStartup",              testimonial: "Oasis completely transformed our online presence. The website they built is not only beautiful but has significantly increased our conversion rates.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-bus-1773173586625-aa23225b.png",              imageAlt: "Sarah Chen"
+              id: "1",              name: "Sarah Chen",              handle: "CEO, TechStartup",              testimonial: "Oáza zcela transformovala naši online přítomnost. Web, který vytvořili, je nejen krásný, ale také výrazně zvýšil naší konverzní poměr.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-bus-1773173586625-aa23225b.png",              imageAlt: "Sarah Chen"
             },
             {
-              id: "2",              name: "Michael Rodriguez",              handle: "Founder, DesignCo",              testimonial: "The professionalism and attention to detail shown by the Oasis team was outstanding. They delivered exactly what we envisioned on time and within budget.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-techn-1773173586036-174293d6.png",              imageAlt: "Michael Rodriguez"
+              id: "2",              name: "Michael Rodriguez",              handle: "Zakladatel, DesignCo",              testimonial: "Profesionalismus a pozornost k detailům, kterou tým Oázy prokázal, byla výjimečná. Dodali přesně to, co jsme si představovali, včas a v rozpočtu.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-techn-1773173586036-174293d6.png",              imageAlt: "Michael Rodriguez"
             },
             {
-              id: "3",              name: "Emily Watson",              handle: "Marketing Director, RetailCo",              testimonial: "Our new website has become our best sales tool. Customer engagement increased by 150% within the first quarter after launch.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-dat-1773173585159-7d38ef14.png",              imageAlt: "Emily Watson"
+              id: "3",              name: "Emily Watson",              handle: "Ředitelka marketingu, RetailCo",              testimonial: "Náš nový web se stal naším nejlepším prodejním nástrojem. Zapojení zákazníků se v prvním čtvrtletí po spuštění zvýšilo o 150%.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-dat-1773173585159-7d38ef14.png",              imageAlt: "Emily Watson"
             },
             {
-              id: "4",              name: "David Park",              handle: "Product Manager, InnovateLabs",              testimonial: "Oasis stands out for their technical expertise and customer service. They made the complex process of building a web platform feel effortless.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586669-bddc6d30.png",              imageAlt: "David Park"
+              id: "4",              name: "David Park",              handle: "Vedoucí produktu, InnovateLabs",              testimonial: "Oáza se vyznačuje technickou odborností a obsluhou zákazníků. Udělali z komplexního procesu vytváření webové platformy něco bez námahy.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586669-bddc6d30.png",              imageAlt: "David Park"
             },
             {
-              id: "5",              name: "Lisa Thompson",              handle: "Owner, Creative Agency",              testimonial: "The website Oasis created for us is a true reflection of our brand. Our clients constantly compliment the design and user experience.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-tec-1773173586288-e8f0f38a.png",              imageAlt: "Lisa Thompson"
+              id: "5",              name: "Lisa Thompson",              handle: "Majitelka, Creative Agency",              testimonial: "Web, který Oáza vytvořila pro nás, je skutečným odrazem naší značky. Naši klienti neustále chválí design a uživatelský dojem.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-confident-tec-1773173586288-e8f0f38a.png",              imageAlt: "Lisa Thompson"
             },
             {
-              id: "6",              name: "James Wilson",              handle: "Executive Director, Enterprise Co",              testimonial: "From concept to launch, Oasis provided exceptional guidance and expertise. Our website is now a key competitive advantage.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586600-2b46a3cd.png",              imageAlt: "James Wilson"
+              id: "6",              name: "James Wilson",              handle: "Výkonný ředitel, Enterprise Co",              testimonial: "Od konceptu až po spuštění poskytla Oáza výjimečné vedení a odbornost. Náš web je nyní klíčovou konkurenční výhodou.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AeyVCun1NqkWPvWuaXSlPFwtC6/professional-headshot-of-a-smiling-busin-1773173586600-2b46a3cd.png",              imageAlt: "James Wilson"
             }
           ]}
         />
@@ -178,38 +178,38 @@ export default function LandingPage() {
 
       <div id="pricing" data-section="pricing">
         <PricingCardThree
-          title="Flexible Pricing Plans"
-          description="Choose the package that fits your business needs and budget"
+          title="Plány s flexibilní cenou"
+          description="Vyberte si balíček, který nejlépe vyhovuje potřebám a rozpočtu vašeho podniku"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           plans={[
             {
-              id: "basic",              price: "1899 + 500/mo",              name: "Basic",              buttons: [
-                { text: "Get Started" },
-                { text: "Schedule Consultation", onClick: handleScheduleConsultation }
+              id: "basic",              price: "1899 + 500/měs",              name: "Základní",              buttons: [
+                { text: "Začít" },
+                { text: "Naplánovat konzultaci", onClick: handleScheduleConsultation }
               ],
               features: [
-                "500 monthly updates",                "14 day refund policy",                "Basic support",                "Email notifications",                "Analytics dashboard"
+                "500 měsíčních aktualizací",                "Politika vrácení peněz 14 dní",                "Základní podpora",                "E-mailová oznámení",                "Řídicí panel analýzy"
               ]
             },
             {
-              id: "professional",              badge: "Most Popular",              badgeIcon: Star,
-              price: "4920 + 250/mo",              name: "Professional",              buttons: [
-                { text: "Get Started" },
-                { text: "Schedule Consultation", onClick: handleScheduleConsultation }
+              id: "professional",              badge: "Nejpopulárnější",              badgeIcon: Star,
+              price: "4920 + 250/měs",              name: "Profesionální",              buttons: [
+                { text: "Začít" },
+                { text: "Naplánovat konzultaci", onClick: handleScheduleConsultation }
               ],
               features: [
-                "250 monthly updates",                "30 day refund policy",                "Priority support",                "Advanced analytics",                "API access",                "Team collaboration"
+                "250 měsíčních aktualizací",                "Politika vrácení peněz 30 dní",                "Prioritní podpora",                "Pokročilá analytika",                "Přístup k rozhraní API",                "Spolupráce v týmu"
               ]
             },
             {
-              id: "custom",              price: "5 600 Kč",              name: "Custom",              buttons: [
-                { text: "Contact Sales" },
-                { text: "Request Proposal", onClick: handleScheduleConsultation }
+              id: "custom",              price: "5 600 Kč",              name: "Vlastní",              buttons: [
+                { text: "Kontaktovat prodej" },
+                { text: "Požádat o návrh", onClick: handleScheduleConsultation }
               ],
               features: [
-                "Consultation for features",                "Custom implementation",                "Dedicated account manager",                "24/7 support",                "White-label options",                "Ongoing optimization"
+                "Konzultace pro funkce",                "Vlastní implementace",                "Vyhrazený správce účtu",                "Podpora 24/7",                "Možnosti bez znalostí značky",                "Průběžná optimalizace"
               ]
             }
           ]}
@@ -252,7 +252,7 @@ export default function LandingPage() {
           tag="Připraveni začít"
           tagIcon={Rocket}
           title="Pojďme vytvořit vaši digitální přítomnost"
-          description="Připojte se ke stovkám spokojených klientů, kteří transformovali své podnikání s Oasis. Kontaktujte nás dnes pro bezplatnou konzultaci."
+          description="Připojte se ke stovkám spokojených klientů, kteří transformovali své podnikání s Oázou. Kontaktujte nás dnes pro bezplatnou konzultaci."
           buttons={[
             { text: "Naplánovat konzultaci", onClick: handleScheduleConsultation },
             { text: "Zobrazit naší práci" }
@@ -264,8 +264,8 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterBaseCard
-          logoText="Oasis"
-          copyrightText="© 2025 Oasis. Všechna práva vyhrazena."
+          logoText="Oáza"
+          copyrightText="© 2025 Oáza. Všechna práva vyhrazena."
           columns={[
             {
               title: "Služby",              items: [
