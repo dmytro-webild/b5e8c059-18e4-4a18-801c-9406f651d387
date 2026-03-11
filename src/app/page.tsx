@@ -44,7 +44,7 @@ export default function LandingPage() {
 
       <div id="nav" data-section="nav">
         <NavbarStyleFullscreen
-          brandName="Oáza"
+          brandName="Oasis "
           navItems={[
             { name: "Funkce", id: "features" },
             { name: "Možnosti", id: "capabilities" },
